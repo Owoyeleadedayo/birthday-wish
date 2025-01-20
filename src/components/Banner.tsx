@@ -106,6 +106,7 @@ const Banner = () => {
                   fontWeight={400}
                   fontSize="3xl"
                   fontFamily="Satisfy"
+                  pl={'120px'}
                 >
                   Nya
                 </Text>
@@ -132,7 +133,7 @@ const Banner = () => {
                 alignItems="center"
                 pr="30px"
                 pb="20px"
-                pt={'10px'}
+                pt={'5px'}
                 pl={'40px'}
               >
                 <Button
