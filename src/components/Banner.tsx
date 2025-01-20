@@ -73,12 +73,13 @@ const Banner = () => {
 
         <Flex
           direction="column"
-          justifyContent="space-between"
+          justifyContent="center"
           width="100%"
           zIndex={1} 
+
         >
           <Flex direction="column" alignItems="center">
-            <Box width="100%" height="150px">
+            <Box width="100%" height="200px">
               <Image src={BB} width="100%" height="100%" objectFit="contain" />
             </Box>
             <Flex
@@ -111,8 +112,8 @@ const Banner = () => {
               </Text>
             </Flex>
           </Flex>
-          <Grid templateRows="70% 30%" gap="1px">
-            <GridItem>
+          <Grid templateRows="70% 30%" gap="10px">
+            <GridItem >
               <Flex justifyContent="center" alignItems="center">
                 <Box width="300px" height="200px">
                   <Image
