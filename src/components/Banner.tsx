@@ -18,6 +18,8 @@ const Banner = () => {
         bgImage={BBI}
         bgPos={"center"}
         bgSize="contain"
+        backgroundBlendMode={"soft-light"}
+        bgColor={"rgba(0, 0, 0, 0.2)"}
       >
         <Flex
           direction={"column"}
@@ -71,7 +73,7 @@ const Banner = () => {
           </Flex>
           <Grid templateRows="70% 30%)" gap={"1px"}>
             <GridItem>
-              <Flex justifyContent={'center'} alignItems={'center'}>
+              <Flex justifyContent={"center"} alignItems={"center"}>
                 <Box width={"400px"} height={"300px"}>
                   <Image
                     src={Cake}
@@ -97,12 +99,14 @@ const Banner = () => {
                   onClick={() => navigate("/wishes")}
                   fontFamily={"Cardo"}
                   fontWeight={600}
+                  color={"#FFF"}
                 >
                   Click
                 </Button>
                 <MdKeyboardDoubleArrowRight
                   fontSize={"20px"}
                   fontFamily={"Cardo"}
+                  color={"#FFF"}
                   style={{ marginLeft: 0 }}
                 />
               </Flex>
