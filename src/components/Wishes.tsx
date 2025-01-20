@@ -79,7 +79,7 @@ const Wishes: React.FC = () => {
           <Text
             fontSize="2xl"
             fontWeight="bold"
-            color="black"
+            color="#012169"
             fontFamily={"Satisfy"}
             textAlign="center"
           >
@@ -113,7 +113,7 @@ const Wishes: React.FC = () => {
                   >
                     <Text
                       fontSize="lg"
-                      color="black"
+                      color="#012169"
                       fontFamily={"Cardo"}
                       fontWeight={400}
                     >
@@ -137,7 +137,7 @@ const Wishes: React.FC = () => {
             fontSize="2xl"
             fontWeight="bold"
             fontFamily={"Satisfy"}
-            color="purple.700"
+            color="#012169"
             textAlign="center"
             mt={6}
           >
@@ -145,7 +145,9 @@ const Wishes: React.FC = () => {
             easy to write, as it was today. I love you.
           </Text>
           <Flex>
-            <Button fontFamily={"Cardo"} onClick={() => navigate("/")}>Click to go home</Button>
+            <Button fontFamily={"Cardo"} onClick={() => navigate("/")}>
+              Click to go home
+            </Button>
           </Flex>
         </Flex>
       )}
