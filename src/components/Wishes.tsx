@@ -83,7 +83,7 @@ const Wishes: React.FC = () => {
             fontFamily={"Satisfy"}
             textAlign="center"
           >
-            Here are the 42 reasons why I love you:
+            On your 42nd birthday, here are the 42 reasons why I love you:
           </Text>
 
           <Box
